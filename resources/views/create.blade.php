@@ -14,18 +14,18 @@
                 @endforeach
             @endif
                 <div class="form-group">
-                    <label for="">title</label>
+                    <label for="title">title</label><br><br>
                     <div class="col-md-10">
                         <input type="text" name="title" class="form-control" id="" placeholder="title">
                     </div>
-                </div>
+                </div><br><br>
                 <div class="form-group">
-                    <label for="">description</label>
+                    <label for="description">description</label><br><br>
                     <div class="col-md-10">
                         <textarea placeholder="description" class="form-control" name="description" id="" cols="30" rows="10"></textarea>
                     </div>
                 </div>
-                <div class="form-group">
+                <div class="form-group" style="margin-top:2px;">
                     <div class="col-lg-10 col-lg-offset-2">
                     <!-- <button type="reset" class="btn btn-default">Cancel</button> -->
                     <button type="submit" class="btn btn-primary">Submit</button>
