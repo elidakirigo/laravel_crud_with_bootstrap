@@ -10,8 +10,16 @@
 }
 .navbar {
     background: #0c84e4 !important;
+    font-weight: bold;
+    color: #fff !important;
 }
 
-nav .active {
-    background: #025fac !important;
+.navbar  a {
+    color: #fff !important;
+}
+.navbar ul .active {
+    background: #0e0d0d !important;
+}
+.navbar li:hover {
+    background: #0e0d0d !important;
 }
